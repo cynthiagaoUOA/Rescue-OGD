@@ -58,7 +58,7 @@ ogdrescue2_plotdata = rescue2_labeled %>% vascr_zero_time(68.767) %>%
 ogdrescue2_plotdata %>% 
   vascr_subset(sampleid = c(101, 102)) %>%
   vascr_summarise(level = "experiment") %>% #summary gives median only, experiment gives mean+/SEM, wells gives a line to every well
-  vascr_plot_line() 
+  vascr_plot_line() +xlim(-2,2) 
 
 ogdrescue2_plotdata %>% 
   vascr_subset(sampleid = c(101, 25:26)) %>%
