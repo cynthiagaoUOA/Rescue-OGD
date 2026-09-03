@@ -115,14 +115,59 @@ gfrescue_plotdata %>%
   vascr_plot_line() + xlim(-4,30)    
 
 
-# licl
-gfrescue_plotdata %>% 
-  vascr_subset(sampleid = c(102, 25:26)) %>%
-  vascr_summarise(level = "experiment") %>% 
-  vascr_plot_line() + xlim(-4,30)   
 
 # glucose controls
 gfrescue_plotdata %>% 
   vascr_subset(sampleid = c(103,104, 101)) %>%
   vascr_summarise(level = "experiment") %>% 
   vascr_plot_line() + xlim(-4,48)   +geom_vline(xintercept=15.8)
+
+
+plot_gf<- function(data= gfrescue_plotdata, drug, vehicle=101, time = c(-2, 10), ylim= c(0.25, 1.25)){ 
+  
+  library(stringr)
+  drugdf<- data %>% vascr:::vascr_subset(sampleid= drug)
+  drugname = str_extract(drugdf$Sample[1], "\\S+$")
+  
+  subset <- data %>% vascr:::vascr_subset(sampleid= c(drug,vehicle), time= time) %>% vascr_summarise(level="experiment")
+  plot <- subset %>% vascr_plot_line() + 
+    theme_bw() +
+    scale_fill_manual(values= c("#7CAE00", "#F8766D", "grey35"))+ 
+    scale_color_manual(values= c("#7CAE00", "#F8766D", "darkgrey")) + ylim(ylim)+
+    labs(title=drugname ) + geom_vline(xintercept=0, linetype="dashed")
+  
+  return(plot)
+}
+
+
+# licl
+lic<- plot_gf(drug=c(25,26), vehicle= 102)
+
+# rapa
+rapamyc<- plot_gf(drug=c(11,12))
+
+#BHB
+BH<- plot_gf(drug=c(13,14), vehicle= 102)
+
+#exendin
+exen<- plot_gf(drug=c(17,18))
+
+#riluzole
+riluz<- plot_gf(drug=c(19:20))
+
+# no effect
+e<- plot_gf(drug=c(1,2))
+d<- plot_gf(drug=c(3,4))
+m<- plot_gf(drug=c(5,6))
+c<- plot_gf(drug=c(7:8))
+v<- plot_gf(drug=c(9:10))
+
+a<- plot_gf(drug=c(15:16))
+
+
+p<- plot_gf(drug=c(21:22))
+s<- plot_gf(drug=c(23:24))
+library(patchwork)
+
+(e+d+m+c+v+a+p+s+lic + rapamyc+exen+riluz)+ patchwork::plot_layout(ncol = 3) &theme(legend.position="none")
+lic + rapamyc+exen+riluz&theme(legend.position="none")
