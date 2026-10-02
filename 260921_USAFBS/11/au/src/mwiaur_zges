@@ -1,0 +1,81 @@
+
+char disk_sav[PATH_MAX], user_sav[PATH_MAX],
+     type_sav[PATH_MAX], name_sav[PATH_MAX];
+char pulprog[40], exp[40];
+int expno_sav = expno;
+int procno_sav = procno;
+int ns;
+float ref_len, atten, ref_atten;
+float pl9, pl9_save;
+double o1, o1_cal, o1_save;
+
+GETCURDATA
+ 
+(void)strcpy(disk_sav,disk);
+(void)strcpy(user_sav,user);
+(void)strcpy(type_sav,type);
+(void)strcpy(name_sav,name);
+
+FETCHPAR("O1", &o1);
+
+o1_save = o1;
+
+GETCURDATA2;
+ERRORABORT;
+
+// Proc_err(DEF_ERR_OPT, "Ref. expno %d, current expno %d", expno2, expno);
+
+DATASET(name2,expno2,procno2,disk2,user2);
+ERRORABORT
+FETCHPARS("O1", &o1_cal);
+
+DATASET(name_sav,expno_sav,procno_sav,disk_sav,user_sav);
+ERRORABORT
+
+o1 = o1_cal;
+
+STOREPAR("O1", o1_cal);
+ERRORABORT
+
+// Proc_err(DEF_ERR_OPT, "New O1 frequency %8.3f (old: %8.3f)", o1_cal, o1_save);
+
+GETCURDATA
+
+//GETPROSOL
+
+FETCHPAR( "P 1", &ref_len );
+FETCHPAR( "PLdB 1", &ref_atten );
+
+
+II
+
+// Proc_err(DEF_ERR_OPT, "New PL9 %8.3f (saved: %8.3f)", pl9, pl9_save);
+
+FETCHPAR("PULPROG", pulprog)
+FETCHPAR("EXP", exp)
+FETCHPAR("NS", &ns)
+
+if (!strncmp(exp,"protonprcmpri", strlen("protonprcmpri"))) {
+		if (ns > 32) {
+			ns = 32;
+  		STOREPAR("NS", ns)
+		}
+}
+
+if (!strncmp(exp,"protonescmpri", strlen("protonescmpri"))) {
+		/* may be overwritten by mwau_t2 or mwau_calzges */
+		STOREPAR("PLdB 9", 1000.);
+		STOREPAR("P 12", 2000.);
+		STOREPAR("SPNAM1", "Squa100.1000");
+		atten = 20.*log10(1000./ref_len) + ref_atten;
+		STOREPAR("SPdB 1", atten);
+
+		if (ns > 64) {
+			ns = 64;
+  		STOREPAR("NS", ns)
+		}
+}
+
+RGA
+ZG
+QUIT

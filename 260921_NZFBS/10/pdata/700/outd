@@ -1,0 +1,16 @@
+##TITLE= Parameter file, TopSpin 4.5.0
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 1	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH & Co. KG
+##OWNER= autosampler
+$$ 2026-09-21 16:53:02.642 +1200  autosampler@CZC4277BQH
+$$ /nmr/400p/data/cgao801/nmr/260921_NZFBS/10/pdata/700/outd
+$$ process /opt/topspin4.5.0/prog/mod/acqdataserver
+##$CURPLOT= <>
+##$CURPRIN= <>
+##$DFORMAT= <>
+##$LAYOUT= <>
+##$LFORMAT= <>
+##$PFORMAT= <>
+##END=

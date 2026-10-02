@@ -1,0 +1,14 @@
+##TITLE= Audit trail, TopSpin 4.5.0
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH & Co. KG
+##OWNER= root
+$$ /root/.topspin-BladeEpu/local_acqu/tuneDirs/260921_NZFBS/10/pdata/700/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2026-09-21T04:53:02.536+0000>,<root>,<BladeEpu>,<go4>,<TopSpin 4.5.0>,
+      <wbwr writes wobble curve for nucleus 1H at 400.421886 MHz
+       data hash MD5: 512
+       41 AE FF 73 C5 5F 96 63 0C 3F C3 C6 07 B2 5E 02>)
+##END=
+
+$$ hash MD5
+$$ 69 14 9D F2 78 45 2E EB 96 9F F3 ED 5A 51 9D 69

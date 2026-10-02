@@ -1,0 +1,65 @@
+##TITLE= Audit trail, TopSpin 4.5.0
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH & Co. KG
+##OWNER= autosampler
+$$ /nmr/400p/data/cgao801/nmr/260921_USAFBS/10/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2026-09-21T05:00:04.360+0000>,<autosampler>,<CZC4277BQH>,<go4>,<TopSpin 4.5.0>,
+      <acquisition in progress>)
+$$ /nmr/400p/data/cgao801/nmr/260921_USAFBS/10/audita.txt
+(   2,<2026-09-21T05:00:07.839+0000>,<autosampler>,<CZC4277BQH>,<go4>,<TopSpin 4.5.0>,
+      <created by zg on 'Avance Neo' (CZC4277BQH) by user 'autosampler'
+       on data set with UUID '4eb841b8-b579-11f1-a12f-0030d63fed95'
+       started at 2026-09-21 05:00:04.360 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2026-09-21 05:00:07.835 +0000
+       configuration hash MD5:
+       8C D7 39 BF 86 FF BE DD A0 A5 4D FB 5A 71 16 E2
+       double data hash MD5: 2K
+       72 27 FA A7 AF 80 FB 79 28 AA 41 E9 FC 39 BF F2>)
+(   3,<2026-09-21T17:00:08.730+1200>,<autosampler>,<CZC4277BQH>,<proc1d>,<TopSpin 4.5.0>,
+      <Start of raw data processing
+       ef LB = 0.3 FT_mod = 6 PKNL = 1 SI = 64K
+       fid double data hash MD5: 2K
+       72 27 FA A7 AF 80 FB 79 28 AA 41 E9 FC 39 BF F2
+       data hash MD5: 64K
+       61 FF CF 5E E4 F4 BE 97 7F 60 D4 4F B3 0A 5F F8>)
+$$ /nmr/400p/data/cgao801/nmr/260921_USAFBS/10/pdata/1/auditp.txt
+(   4,<2026-09-21T17:00:09.235+1200>,<autosampler>,<CZC4277BQH>,<proc1d>,<TopSpin 4.5.0>,
+      <apk0
+       data hash MD5: 64K
+       1C 93 25 0B C4 48 84 87 73 EB A8 9F 6F 76 9F E5>)
+(   5,<2026-09-21T17:00:09.266+1200>,<autosampler>,<CZC4277BQH>,<peak>,<TopSpin 4.5.0>,
+      <1D Peak picking
+       data hash MD5: 64K
+       1C 93 25 0B C4 48 84 87 73 EB A8 9F 6F 76 9F E5>)
+(   6,<2026-09-21T17:00:09.627+1200>,<autosampler>,<CZC4277BQH>,<proc1d>,<TopSpin 4.5.0>,
+      <Start of raw data processing
+       ef LB = 0.3 FT_mod = 6 PKNL = 1 SI = 64K
+       fid double data hash MD5: 2K
+       72 27 FA A7 AF 80 FB 79 28 AA 41 E9 FC 39 BF F2
+       data hash MD5: 64K
+       61 FF CF 5E E4 F4 BE 97 7F 60 D4 4F B3 0A 5F F8>)
+(   7,<2026-09-21T17:00:09.715+1200>,<autosampler>,<CZC4277BQH>,<proc1d>,<TopSpin 4.5.0>,
+      <apk
+       data hash MD5: 64K
+       DE 32 87 11 D3 45 C9 ED B3 70 23 90 63 F0 AE 7E>)
+(   8,<2026-09-21T17:00:09.754+1200>,<autosampler>,<CZC4277BQH>,<sref>,<TopSpin 4.5.0>,
+      <sref
+       data hash MD5: 64K
+       DE 32 87 11 D3 45 C9 ED B3 70 23 90 63 F0 AE 7E>)
+(   9,<2026-09-21T17:00:09.786+1200>,<autosampler>,<CZC4277BQH>,<proc1d>,<TopSpin 4.5.0>,
+      <abs ABSG = 5
+       data hash MD5: 64K
+       21 D5 A0 87 7E 1A F7 FF 02 91 C6 9C 20 B9 F9 D0>)
+(  10,<2026-09-21T17:00:09.834+1200>,<autosampler>,<CZC4277BQH>,<peak>,<TopSpin 4.5.0>,
+      <1D Peak picking
+       data hash MD5: 64K
+       21 D5 A0 87 7E 1A F7 FF 02 91 C6 9C 20 B9 F9 D0>)
+(  11,<2026-09-21T17:00:10.133+1200>,<autosampler>,<CZC4277BQH>,<xwish3>,<TopSpin 4.5.0>,
+      <ICON-NMR User ID: cgao801
+       data hash MD5: 64K
+       21 D5 A0 87 7E 1A F7 FF 02 91 C6 9C 20 B9 F9 D0>)
+##END=
+
+$$ hash MD5
+$$ 7C 3B B5 5F C7 93 DC 88 94 EB 45 3B C6 41 DC D5

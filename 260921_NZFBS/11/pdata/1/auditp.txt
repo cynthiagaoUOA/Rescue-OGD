@@ -1,0 +1,81 @@
+##TITLE= Audit trail, TopSpin 4.5.0
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH & Co. KG
+##OWNER= autosampler
+$$ /nmr/400p/data/cgao801/nmr/260921_NZFBS/11/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2026-09-21T04:54:40.488+0000>,<autosampler>,<CZC4277BQH>,<go4>,<TopSpin 4.5.0>,
+      <acquisition in progress>)
+$$ /nmr/400p/data/cgao801/nmr/260921_NZFBS/11/audita.txt
+(   2,<2026-09-21T04:57:45.192+0000>,<autosampler>,<CZC4277BQH>,<go4>,<TopSpin 4.5.0>,
+      <created by zg on 'Avance Neo' (CZC4277BQH) by user 'autosampler'
+       on data set with UUID '2670980c-91e5-4a00-a51e-51146950aa55'
+       started at 2026-09-21 04:54:40.488 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2026-09-21 04:57:45.187 +0000
+       configuration hash MD5:
+       8C D7 39 BF 86 FF BE DD A0 A5 4D FB 5A 71 16 E2
+       double data hash MD5: 16K
+       47 47 B3 4E 66 03 44 A3 EE 87 A2 54 8C B6 81 1B>)
+(   3,<2026-09-21T16:57:45.687+1200>,<autosampler>,<CZC4277BQH>,<xwish3>,<TopSpin 4.5.0>,
+      <ICON-NMR User ID: cgao801
+       double data hash MD5: 16K
+       47 47 B3 4E 66 03 44 A3 EE 87 A2 54 8C B6 81 1B>)
+(   4,<2026-09-21T16:57:45.982+1200>,<autosampler>,<CZC4277BQH>,<proc1d>,<TopSpin 4.5.0>,
+      <Start of raw data processing
+       ef LB = 0.1 FT_mod = 6 PKNL = 1 SI = 16K
+       fid double data hash MD5: 16K
+       47 47 B3 4E 66 03 44 A3 EE 87 A2 54 8C B6 81 1B
+       data hash MD5: 16K
+       76 F4 C0 AE 15 EE 74 64 A0 B9 EA 8C 71 D0 BC 97>)
+$$ /nmr/400p/data/cgao801/nmr/260921_NZFBS/11/pdata/1/auditp.txt
+(   5,<2026-09-21T16:57:46.014+1200>,<autosampler>,<CZC4277BQH>,<proc1d>,<TopSpin 4.5.0>,
+      <apk
+       data hash MD5: 16K
+       4A C0 A6 9F 75 F7 EA B0 80 AA 89 24 D3 EC 78 70>)
+(   6,<2026-09-21T16:57:46.041+1200>,<autosampler>,<CZC4277BQH>,<sref>,<TopSpin 4.5.0>,
+      <sref
+       data hash MD5: 16K
+       4A C0 A6 9F 75 F7 EA B0 80 AA 89 24 D3 EC 78 70>)
+(   7,<2026-09-21T16:57:46.058+1200>,<autosampler>,<CZC4277BQH>,<proc1d>,<TopSpin 4.5.0>,
+      <abs ABSG = 5
+       data hash MD5: 16K
+       E9 F7 62 59 7B F7 FA CC 46 0C 2F BF BA 28 12 E7>)
+(   8,<2026-09-21T16:57:46.106+1200>,<autosampler>,<CZC4277BQH>,<peak>,<TopSpin 4.5.0>,
+      <1D Peak picking
+       data hash MD5: 16K
+       E9 F7 62 59 7B F7 FA CC 46 0C 2F BF BA 28 12 E7>)
+(   9,<2026-09-21T16:57:46.500+1200>,<autosampler>,<CZC4277BQH>,<xwish3>,<TopSpin 4.5.0>,
+      <ICON-NMR User ID: cgao801
+       data hash MD5: 16K
+       E9 F7 62 59 7B F7 FA CC 46 0C 2F BF BA 28 12 E7>)
+$$ C:/Git folder/Rescue OGD/260921_NZFBS/11/pdata/1/auditp.txt
+(  10,<2026-09-28T15:03:37.720+1300>,<UOA\cgao801>,<SC460579>,<proc1d>,<TopSpin 5.0.0>,
+      <pk PHC0 = -49.00605 PHC1 = 91.60073
+       data hash MD5: 16K
+       85 0E 7B 8C 4B D3 F2 94 06 D5 4A E2 51 23 83 01>)
+(  11,<2026-09-28T15:06:09.042+1300>,<UOA\cgao801>,<SC460579>,<proc1d>,<TopSpin 5.0.0>,
+      <Start of raw data processing
+       efp LB = 0.1 FT_mod = 6 PKNL = 1 PHC0 = -49.00605 PHC1 = 91.60073 SI = 16K
+       fid double data hash MD5: 16K
+       47 47 B3 4E 66 03 44 A3 EE 87 A2 54 8C B6 81 1B
+       data hash MD5: 16K
+       55 A0 1D CA 6C 4F 8D 1C D5 0C 63 5B 2F 5D A4 12>)
+(  12,<2026-09-28T15:06:13.152+1300>,<UOA\cgao801>,<SC460579>,<proc1d>,<TopSpin 5.0.0>,
+      <Start of raw data processing
+       fp FT_mod = 6 PKNL = 1 PHC0 = -49.00605 PHC1 = 91.60073 SI = 16K
+       fid double data hash MD5: 16K
+       47 47 B3 4E 66 03 44 A3 EE 87 A2 54 8C B6 81 1B
+       data hash MD5: 16K
+       83 69 00 E2 7E 56 AC 4D C0 59 6E 09 1C 07 D7 1E>)
+(  13,<2026-09-28T15:06:17.425+1300>,<UOA\cgao801>,<SC460579>,<proc1d>,<TopSpin 5.0.0>,
+      <apk
+       data hash MD5: 16K
+       9B E2 2D 53 9B D1 69 AF B9 1A 44 B1 33 DB 97 77>)
+(  14,<2026-09-28T15:06:24.731+1300>,<UOA\cgao801>,<SC460579>,<proc1d>,<TopSpin 5.0.0>,
+      <abs ABSG = 5
+       data hash MD5: 16K
+       98 77 2A 2B 04 A3 6A 3A F2 EB 05 CD 99 EC 26 F5>)
+##END=
+
+$$ hash MD5
+$$ 62 75 C3 CC 94 7F C6 7D 95 F8 42 08 03 EC 82 3D

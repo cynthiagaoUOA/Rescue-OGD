@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PeakList>
+  <PeakList1D>
+    <PeakList1DHeader creator="autosampler" date="2026-09-21T17:00:09.856+12:00" expNo="10" name="260921_USAFBS" owner="" procNo="1" source="/nmr/400p/data/cgao801/nmr">
+      <PeakPickDetails>F1=12.926568ppm, F2=-3.503549ppm, MI=80.00cm, MAXI=10000.00cm, PC=1.000
+      </PeakPickDetails>
+    </PeakList1DHeader>
+    <Peak1D F1="4.722814" intensity="1.000000e+02" type="0"/>
+  </PeakList1D>
+</PeakList>

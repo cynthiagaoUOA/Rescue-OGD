@@ -1,0 +1,26 @@
+##TITLE= Audit trail, TopSpin 4.5.0
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH & Co. KG
+##OWNER= root
+$$ /root/.topspin-BladeEpu/local_acqu/260921_USAFBS/11/audita.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2026-09-21T05:00:45.547+0000>,<autosampler>,<CZC4277BQH>,<go4>,<TopSpin 4.5.0>,
+      <acquisition in progress>)
+$$ /nmr/400p/data/cgao801/nmr/260921_USAFBS/11/audita.txt
+(   2,<2026-09-21T05:03:50.216+0000>,<autosampler>,<CZC4277BQH>,<go4>,<TopSpin 4.5.0>,
+      <created by zg on 'Avance Neo' (CZC4277BQH) by user 'autosampler'
+       on data set with UUID 'efb09bf7-075a-4ddf-a77d-aa878cb7dba8'
+       started at 2026-09-21 05:00:45.547 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2026-09-21 05:03:50.212 +0000
+       configuration hash MD5:
+       8C D7 39 BF 86 FF BE DD A0 A5 4D FB 5A 71 16 E2
+       double data hash MD5: 16K
+       43 5C A0 71 1D A9 5F 25 BC 9C 96 60 35 03 78 3F>)
+(   3,<2026-09-21T17:03:50.884+1200>,<autosampler>,<CZC4277BQH>,<xwish3>,<TopSpin 4.5.0>,
+      <ICON-NMR User ID: cgao801
+       double data hash MD5: 16K
+       43 5C A0 71 1D A9 5F 25 BC 9C 96 60 35 03 78 3F>)
+##END=
+
+$$ hash MD5
+$$ EC 68 82 7C 30 5A 3F A4 27 F0 81 61 D0 87 21 18

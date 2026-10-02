@@ -1,0 +1,33 @@
+##TITLE= Parameter file, TopSpin 4.5.0
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 1	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH & Co. KG
+##OWNER= autosampler
+$$ 2026-09-21 15:38:34.615 +1200  autosampler@CZC4277BQH
+$$ /opt/topspin4.5.0/prog/curdir/changer/inmrchanger/Sep21-2026-0642-autosampler/54/54.126/data/nmr/260921_NZFBS/11/pdata/1/curdat2
+$$ process /opt/topspin4.5.0/prog/mod/xwish3
+##$CUREXP= <>
+##$DATPATH= <>
+##$DATPATH2= </nmr/400p/data/cgao801/nmr>
+##$DATPATH3= </nmr/400p/data/cgao801/nmr>
+##$DETAILS= <>
+##$DU= </u>
+##$DU2= </nmr/400p>
+##$DU3= <>
+##$EXPNO= 1
+##$EXPNO2= 10
+##$EXPNO3= 0
+##$NAME= <>
+##$NAME2= <260921_NZFBS>
+##$NAME3= <>
+##$PROCNO= 1
+##$PROCNO2= 1
+##$PROCNO3= 1
+##$SCALE2= 1
+##$SCALE3= 1
+##$TYPE= <nmr>
+##$USER= <>
+##$USER2= <cgao801>
+##$USER3= <>
+##END=

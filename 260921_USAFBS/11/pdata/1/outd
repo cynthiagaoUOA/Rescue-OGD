@@ -1,0 +1,16 @@
+##TITLE= Parameter file, TopSpin 4.5.0
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 1	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH & Co. KG
+##OWNER= autosampler
+$$ 2026-09-21 15:38:59.340 +1200  autosampler@CZC4277BQH
+$$ /opt/topspin4.5.0/prog/curdir/changer/inmrchanger/Sep21-2026-0642-autosampler/55/55.129/data/nmr/260921_USAFBS/11/pdata/1/outd
+$$ process /opt/topspin4.5.0/prog/mod/xwish3
+##$CURPLOT= <HP LaserJet 4L>
+##$CURPRIN= <$HP LaserJet 4L>
+##$DFORMAT= <normdp>
+##$LAYOUT= <+/1D_Hmw.xwp>
+##$LFORMAT= <normlp>
+##$PFORMAT= <normpl>
+##END=

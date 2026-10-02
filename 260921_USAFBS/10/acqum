@@ -1,0 +1,41 @@
+##TITLE= Parameter file, TopSpin 4.5.0
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 1	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH & Co. KG
+##OWNER= autosampler
+$$ 2026-09-21 16:57:45.810 +1200  autosampler@CZC4277BQH
+$$ /nmr/400p/data/cgao801/nmr/260921_USAFBS/10/acqum
+$$ process /opt/topspin4.5.0/prog/mod/xwish3
+##$COMMENT= <>
+##$ECF= 1
+##$ECHOLST= (0..15)
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+##$ECOLLST= (0..15)
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+##$FLIPA= 0
+##$FOV1= 0
+##$FOV2= 0
+##$FOV3= 0
+##$FRARE= 1
+##$HEADER= <>
+##$INSTIT= <>
+##$METHOD= <>
+##$NECHOES= 1
+##$NPROJEC= 32
+##$NSLICES= 32
+##$PATPOS= 0
+##$RUNEXAM= -1
+##$SDIST= 1
+##$SOANGLE= 0
+##$SORIENT= 0
+##$SOT= <>
+##$SPOS= 0
+##$SPOSDIR= <>
+##$STHICK= 3
+##$T2DIST= 30
+##$TINV= 50
+##$TREC= 2700
+##$TREP= 3000
+##$TSCAN= 50000
+##END=
